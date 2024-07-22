@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NotFoundComponent } from '../notFound/notFound.component';
+import { PortfolioModule } from '../modules/portfolio/portfolio.module';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { NotFoundComponent } from '../notFound/notFound.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NotFoundComponent
+    NotFoundComponent,
+    PortfolioModule
   ],
   providers: [],
   bootstrap: [AppComponent]

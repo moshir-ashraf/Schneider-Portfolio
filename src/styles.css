@@ -1,12 +1,22 @@
 * {
   margin: 0;
   padding: 0;
+  
+}
+app-root{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  font-family: Georgia;
+  background-color:  #212121;
+  color: #f4f4f4;
 }
 
-body {
+.default {
   font-family: Georgia;
-  background-color: #f4f4f4;
-  color: #212121;
+  background-color:  #212121;
+  color: #f4f4f4;
 }
 
 .preferedDark {
@@ -29,6 +39,6 @@ body {
   }
 }
 
-body *:not(nav, nav *, footer, footer *) {
+body *:not(nav, nav *, footer, footer *, .info *) {
   animation: fadeIn 1.5s ease-in-out;
 }
