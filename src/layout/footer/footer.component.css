@@ -1,8 +1,9 @@
-.container{
+.container {
     position: relative;
     bottom: 0;
 }
-a{
+
+a {
     font-size: 15px;
     height: 50px;
     width: 50px;
@@ -15,27 +16,33 @@ a{
     align-items: center;
     justify-content: center;
 }
-.blue{
+
+.blue {
     background: transparent;
     border: 3px solid #4f6fb0;
 }
-.blue:hover{
-    background:#4f6fb0 ; 
+
+.blue:hover {
+    background: #4f6fb0;
     color: #f2f2f2;
 }
-.red{
+
+.red {
     background: transparent;
     border: 3px solid #A03232;
 }
-.red:hover{
-    background:#A03232 ;
+
+.red:hover {
+    background: #A03232;
     color: #f2f2f2;
 }
-.yellow{
+
+.yellow {
     background: transparent;
     border: 3px solid #f3ca6b;
 }
-.yellow:hover{
-    background:#f3ca6b ;
+
+.yellow:hover {
+    background: #f3ca6b;
     color: #f2f2f2;
 }

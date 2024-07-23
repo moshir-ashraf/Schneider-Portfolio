@@ -6,13 +6,10 @@ import { AppRoutingModule } from '../../app/app-routing.module';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css'],
   standalone: true,
-  imports: [AppRoutingModule]
+  imports: [AppRoutingModule],
 })
 export class HeaderComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

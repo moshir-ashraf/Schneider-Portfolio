@@ -8,8 +8,8 @@ import { HomeNavigatorsComponent } from './home-navigators/home-navigators.compo
 
 const routes: Routes = [
   { path: '', component: HomeNavigatorsComponent, pathMatch: 'full' },
-  {path: 'info', component: InfoComponent},
-  {path: 'perks', component:PerksComponent},
+  { path: 'info', component: InfoComponent },
+  { path: 'perks', component: PerksComponent },
   { path: '**', component: NotFoundComponent },
 ];
 

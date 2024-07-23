@@ -9,22 +9,18 @@ import { HomeNavigatorsComponent } from './home-navigators/home-navigators.compo
 import { HeaderComponent } from '../layout/header/header.component';
 import { FooterComponent } from '../layout/footer/footer.component';
 
-
 @NgModule({
-  declarations: [	
-    AppComponent,
-    HomeNavigatorsComponent
-   ],
+  declarations: [AppComponent, HomeNavigatorsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NotFoundComponent,
     PortfolioModule,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [HeaderComponent]
+  exports: [HeaderComponent],
 })
-export class AppModule { }
+export class AppModule {}

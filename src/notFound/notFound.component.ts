@@ -5,14 +5,12 @@ import { Router } from '@angular/router';
   selector: 'app-notFound',
   templateUrl: './notFound.component.html',
   styleUrls: ['./notFound.component.css'],
-  standalone: true
+  standalone: true,
 })
 export class NotFoundComponent implements OnInit {
+  constructor(private __router: Router) {}
 
-  constructor(private __router : Router) { }
-
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   goToHome() {
     this.__router.navigate(['/']);

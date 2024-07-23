@@ -1,71 +1,83 @@
-li{
+li {
     border: none;
     margin: 1%;
 }
-.blue{
-    background: linear-gradient(to bottom right,#4f6fb0 , #333);
+
+.blue {
+    background: linear-gradient(to bottom right, #4f6fb0, #333);
     color: #f2f2f2d6;
 }
-.blue:hover{
-    background:#4f6fb0 ; 
+
+.blue:hover {
+    background: #4f6fb0;
     color: #f2f2f2;
 }
-.red{
-    background: linear-gradient(to bottom right,#A03232 , #333);
+
+.red {
+    background: linear-gradient(to bottom right, #A03232, #333);
     color: #f2f2f2d6;
 }
-.red:hover{
-    background:#A03232 ;
+
+.red:hover {
+    background: #A03232;
     color: #f2f2f2;
 }
-.yellow{
-    background: linear-gradient(to bottom right,#f3ca6b , #333);
+
+.yellow {
+    background: linear-gradient(to bottom right, #f3ca6b, #333);
     color: #f2f2f2d6;
 }
-.yellow:hover{
-    background:#f3ca6b ;
+
+.yellow:hover {
+    background: #f3ca6b;
     color: #f2f2f2;
 }
-h1{
-    font-size:2em;
-    font-weight:700;
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
     letter-spacing: 3px;
 }
+
 .title {
     font-size: 16px;
     text-align: center;
     margin-bottom: 4%;
 }
- .title h1::before {
-  letter-spacing: 0px;
-  content: '__';
-  vertical-align:super;
-  font-size: larger;
-  width: 1%;
-  margin-right: 3%;
-  height: 10px; 
-  transform: translateX(-50%);
-  background-image: linear-gradient(to right, #A03232, #FFD576);
-  -webkit-background-clip: text;
-  background-clip: text; 
-  color: transparent; 
+
+.title h1::before {
+    letter-spacing: 0px;
+    content: '__';
+    vertical-align: super;
+    font-size: larger;
+    width: 1%;
+    margin-right: 3%;
+    height: 10px;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to right, #A03232, #FFD576);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
+
 .title h1::after {
-letter-spacing: 0px;
-font-size: larger;
-content: '__';
-vertical-align:super;
-width: 5%;
-margin-left: 3%;;
-height: 10px; 
-transform: translateX(-50%);
-background-image: linear-gradient(to left, #A03232, #FFD576);
--webkit-background-clip: text;
-background-clip: text; 
-color: transparent; 
+    letter-spacing: 0px;
+    font-size: larger;
+    content: '__';
+    vertical-align: super;
+    width: 5%;
+    margin-left: 3%;
+    ;
+    height: 10px;
+    transform: translateX(-50%);
+    background-image: linear-gradient(to left, #A03232, #FFD576);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
-h2{
-    font-size:1.5em;
+
+h2 {
+    font-size: 1.5em;
     text-align: center;
     margin-bottom: 3%;
     font-weight: 400;
@@ -73,13 +85,15 @@ h2{
     letter-spacing: 3px;
 }
 
-h2:hover + ul, ul:hover{
+h2:hover+ul, ul:hover {
     box-shadow: 10px 3px 10px 0 rgba(0, 0, 0, 0.67);
 }
-.container{
+
+.container {
     padding: 3%;
 }
-ul{
+
+ul {
     background-color: #333;
-    
+
 }
