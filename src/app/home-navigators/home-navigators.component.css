@@ -1,0 +1,141 @@
+
+.navDecors {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 7%;
+}
+
+.nd {
+    display: inline-flex;
+    background-color: transparent;
+    border-radius: 3px;
+    color: #fff;
+    margin: 5%;
+    width: 400px;
+    height: 300px;
+    transform-style: preserve-3d;
+    perspective: 2000px;
+    transition: 0.4s;
+    text-align: center;
+    position: relative; 
+    cursor: pointer;
+}
+
+.nd:before, .nd:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.nd .fas {
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px !important;
+    color: #2c3a47;
+    background-color: transparent; /* Remove specific background color here */
+}
+
+.nd .fa2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.nd .text {
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    width: calc(100% + 60px);
+    height: calc(100% - 60px);
+    background-color: #333;
+    border-radius: 3px;
+    transition: 0.4s;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.nd .text .fa1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nd .text img {
+    width: 10%;
+    display: inline-grid;
+}
+
+.nd .text div {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    text-align: left;
+    width: 100%;
+    padding: 30px 60px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+.nd .text div h2 {
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 6px;
+    font-weight: 700;
+}
+
+
+
+.nd .text div i:not(:first-of-type) {
+    display: inline-block;
+}
+
+.nd:hover {
+    transform: rotateY(5deg) skewY(-1deg);
+}
+
+.nd:hover {
+    transform: translate(-10%, -10%) rotateY(-2deg) skewY(1deg);
+}
+
+.b1:before {
+    border-top: 20px solid #4f6fb0;
+    border-left: 20px solid #4f6fb0;
+}
+
+.b1:after {
+    border-bottom: 20px solid #4f6fb0;
+    border-right: 20px solid #4f6fb0;
+}
+
+.b1 .fas {
+    background-color: #4f6fb0;
+}
+
+.b2:before {
+    border-top: 20px solid #ffd576;
+    border-left: 20px solid #ffd576;
+}
+
+.b2:after {
+    border-bottom: 20px solid #ffd576;
+    border-right: 20px solid #ffd576;
+}
+
+.b2 .fas {
+    background-color: #ffd576;
+}

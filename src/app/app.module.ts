@@ -5,17 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NotFoundComponent } from '../notFound/notFound.component';
 import { PortfolioModule } from '../modules/portfolio/portfolio.module';
+import { HomeNavigatorsComponent } from './home-navigators/home-navigators.component';
 
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
-     ],
+      HomeNavigatorsComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NotFoundComponent,
-    PortfolioModule
+    PortfolioModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
